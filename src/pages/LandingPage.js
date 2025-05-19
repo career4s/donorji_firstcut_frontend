@@ -8,7 +8,7 @@ import AuthModal from '../components/AuthModal';
 // Import slides
 //import slide1 from '../assets/slide1.png';
 import slide2 from '../assets/slide2.png';
-import slide3 from '../assets/slide3.png';
+//import slide3 from '../assets/slide3.png';
 import beneficiary1 from '../assets/Beneficiaryslide1.png';
 //import beneficiary2 from '../assets/Beneficiaryslide2.png';
 import beneficiary3 from '../assets/Beneficiaryslide3.png';
@@ -18,7 +18,7 @@ export default function LandingPage() {
   const [showAuth, setShowAuth] = useState(false);
 
 
-  const slides = [slide2, slide3, beneficiary1, beneficiary3];
+  const slides = [slide2, beneficiary1, beneficiary3];
 
   return (
     <div style={{ backgroundColor: '#FFA500', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>

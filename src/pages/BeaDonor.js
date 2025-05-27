@@ -130,7 +130,7 @@ const BeaDonor = () => {
       <div style={styles.container}>
         <h1>Become a Hero in 5 Simple Steps</h1>
         <p style={styles.introText}>
-          At Milaap, every donor is a changemaker. Here's your inspiring roadmap to making a real difference.
+          At Donorji, every donor is a changemaker. Here's your inspiring roadmap to making a real difference.
         </p>
 
         <div style={styles.stepsContainer}>
